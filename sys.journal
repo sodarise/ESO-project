@@ -1,0 +1,131 @@
+ESOJournal.mode
+ /sys/print
+ command: create file: ESOJournal.mode
+ command: create file: stat.txt
+ command: add ESOJournal.mode/info.file
+ command: add ESOJournal.mode/layer
+ command: open "database.info.file"
+ command: open "pesonal system stat.info.file"
+ command: add info.file : item; gold value; description;
+ command: add info.file : stat.; calendar event; skill tree; household items; inventory;
+ command: add info.file : cookie.file; layer;
+ command: print "ESOJournal.mode"
+command: create: file name - "statistic.info"
+command: add data.base into "file.info"
+command: use data.base
+
+//JournalESO: 
+/log: sys/main/ QR-code .image 900pix. to 900pix.
+command: scan system stat./current layer
+command: open "Sys.display.txt"
+command: open "Statstic-1.txt"
+command: display .image "personal system stat."
+/sys/main/layer: create QR-code image to: 900pix.; 900pix.
+command: print (current layer)
+command: open "Math based description.txt"
+command: open "Journal_edit.txt"
+command: create QR-code .image
+add: .image 900pix.; 900pix.
+add: .image "database.info.file"
+//scan QR-code
+command: print (pesonal system stat.)
+command: print (database.info.file)
+
+/sys/data.base
+ /data.base:
+ stat.;
+ layer;
+ RGB-login;
+ search_engine;
+ exp-count;
+ qr-code;
+ journal;
+ sync.calendar;
+ cookie.file;
+ skill-tree;
+ buff-system;
+ household;
+command: create stat.
+command: create data.base
+command: add file.info
+sys/statistic.info
+command: print - statistic.info
+add/cookie.file//data
+add/tree_skill 12
+command: count tree_skill
+command: cookie.file; tree_skill
+command: print "tree_skill"
+command: create QR-code
+command: sync.
+ /log/QR-quest/description
+ /log/add QR-code .png 
+ /log/journal/sync.info/layer
+
+//sys/
+command:count_inventory:add catalog.file
+command:add block.info:create catalog/info/file
+command:add file.info:add -inventory -catalog
+ //add_file_info/inventory/-catalog
+ //file.info/inventory/add catalog.info
+
+//sys/add_description_items/
+command: open catalog.file
+command: add new_item(s)
+command: add personal_inventory (description.file)
+/catalog.file/add description_item(s)
+/catalog.file:stat;file.info;
+//add file.info to stat.
+//count/item_value/-gold
+
+/sys/add_layer(*tech)
+/sys/print/
+ /#RGBlogin
+ /ESO:Journal
+ /QR-Quest
+ /Exp.count
+ /stat.
+//ESO:Journal: add Journal.txt
+command: display /sys/
+command: print Journal.txt
+
+command: add QR-quest
+command: add-QR-code.img
+ if: "check"
+ command: sync. ESO:Journal
+ command: add ESO:Journal:QR-quest
+-sys/add_source/cookie.file
+ -sys/count.file/source/search
+  -sys/add/source/stat./cookie.file
+   add: command: search
+   add: command: stat.
+   add: cookie.file
+    -sys/add_tree/source/stat.file
+    -sys/add_file/source/cookie.file
+     command: #compilate
+     #source #cookie #stat.
+     #search #tree #image
+      
+/ESO:Journal
+data.base: tree_skill
+command: add sys
+add/sys/tutorial
+add/sys/guide
+add/sys/skill_share
+
+/ESO:Journal:page_edit
+command: add icon(s)
+command: add description
+command: add note.txt
+/save/page
+
+#Journal
+add: search_engine
+add: cookie.file
+add: QR_quest
+add: icons.apk
+add: chat.stat.
+add: sell
+add: gold
+add: style:ESO
+
+

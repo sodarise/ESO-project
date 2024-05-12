@@ -1,0 +1,205 @@
+1.0 mod
+ /system/tree/file/dsp
+  /elder.scrolls.online/cash
+   /l/-mod/file/config.css
+    /sys/android.apk/-count
+     /css/x=0.1/-start-application
+      /pixel.pi/-HQ:1080/
+       /-l/bit.rate/30 FPS
+        /cash/sys/-create-ds.cookie
+         /map/-movement-/360"
+          /S=24/a=1ca/
+
+1.0 mod
+ /dsa/sys/tree.file/
+  /ESO:Project/file.data
+   /l/-mod/file.config
+    /sys: xy=e4dac 
+command: count
+     /sys/x=S/y=0
+      /sys/print
+       /-l/
+command: layer
+        /add/cookie.file/stat.
+         /map/add model
+          /S=24
+command: count e4dac
+command: sync layer
+-sys/file/eso_project
+-sys/add/layer
+-sys/open.source/data.base/stat.file
+ command: add text .file
+  add: description: -txt.file
+  add: instruction: -txt.file
+  add: layer: info -txt.file
+  add: layer: description - txt.file
+   -command: info.txt
+   -command: add database
+   -command: add opensource
+   -command: add opensource/stat.file
+ESOJournal.mode
+ /sys/print
+ command: create file: ESOJournal.mode
+ command: create file: stat.txt
+ command: add ESOJournal.mode/info.file
+ command: add ESOJournal.mode/layer
+ command: open "database.info.file"
+ command: open "pesonal system stat.info.file"
+ command: add info.file : item; gold value; description;
+ command: add info.file : stat.; calendar event; skill tree; household items; inventory;
+ command: add info.file : cookie.file; layer;
+ command: print "ESOJournal.mode"
+command: create: file name - "statistic.info"
+command: add data.base into "file.info"
+command: use data.base
+/sys/data.base
+ /data.base:
+ stat.;
+ layer;
+ RGB-login;
+ search_engine;
+ exp-count;
+ qr-code;
+ journal;
+ sync.calendar;
+ cookie.file;
+ skill-tree;
+ buff-system;
+ household;
+command: create stat.
+command: create data.base
+command: add file.info
+sys/statistic.info
+command: print - statistic.info
+add/cookie.file//data
+add/tree_skill 12
+command: count tree_skill
+command: cookie.file; tree_skill
+command: print "tree_skill"
+command: create QR-code
+command: sync.
+ /log/QR-quest/description
+ /log/add QR-code .png 
+ /log/journal/sync.info/layer
+command: add QR-quest
+command: add-QR-code.img
+ if: "check"
+ command: sync. ESO:Journal
+ command: add ESO:Journal:QR-quest
+-sys/add_source/cookie.file
+ -sys/count.file/source/search
+  -sys/add/source/stat./cookie.file
+   add: command: search
+   add: command: stat.
+   add: cookie.file
+    -sys/add_tree/source/stat.file
+    -sys/add_file/source/cookie.file
+     command: #compilate
+     #source #cookie #stat.
+     #search #tree #image
+
+
+sys: count e4dac
+sys: sync. layer
+
+command: add file:ESO Project
+command: count xy=e4dac
+command: sync layer
+-sys/file/eso_project
+-sys/add/layer
+
+use:machine
+//code
+command: count
+-e4dac=x
+-min.=0
+/mode
+e4dac=4.32km2
+//map=e4dac
+
+-sys: main
+-sys: server://128.01.02.08/
+-sys: connect to server
+command: connect to server //128.01.02.08/
+command: add sys .file
+command: add sys .apk
+command: mode:e4dac
+command: create database
+command: add layer
+command: sync
+
+add: block:data
+add: layer
+add: cookie.file
+count: #RGB-login
+count: exp.data
+count: layer
+add: layer
+x=e4dac
+y=0
+
+/e4dac=x
+/e4dac=size.map
+/map.system.e4dac
+#RGB-login
+//test
+
+
+command: add file: ESO_Project.file
+command: count e4dac
+command; sync layer
+-sys/file/eso_project
+-sys/add/layer
+
+sys/layer/-exp.count;
+sys/layer/-step.
+sys/layer/architecture/-exp_engine;
+-exp_engine: stat; exp; ratio; architecture;
+
+//sys/ESO:Village/architecture/household/log
+ /sys/log:add architecture
+ /sys/log:add household
+command: add architecture_model
+
+(e)- household model
+(x-y) = 0; (x - possitive ratio, and y - negative ratio)
+a - amount of gold
+
+e=(x-y)*a
+
+
+-sys/logs/check;
+-sys/balance/involve.permission;
+command:adopt/user
+
+-sys/logs/check;
+-sys/balance/involve.permission;
+command:adopt/user/sys/tree/data.base
+command: add data.base;
+#RGBlogin; layer; exp-count; stat.; buff; de-buff; gold; inventory; household; social ratio; cookie.info;
+/ESO:Journal: search_engine; math_based_description; skill-tree; sync.calendar; qr-code; notes;
+command: -c data.base
+command: add file.info
+
+
+//search_engine
+command(s): search; scan; volume; save; print;
+//sys/architecture/tree/layer
+//JournalESO:
+-about:blank
+command: open "Sync.msg.txt"
+command: open "QR-quests.txt"
+command: open "Stat.counter.source.txt"
+info:item /gold value/description/
+info:stat. /calendar event/skill tree/household items/inventory
+
+
+//test:
+ :e4dac=2×2^15=60;32,768
+ :/sys/test/complete/
+ :Y/N
+
+/e4dac=2^2*15
+//sys:complete
+//sys:start
+//support

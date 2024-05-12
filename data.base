@@ -1,0 +1,74 @@
+/sys/tree/data.base
+command: add data.base;
+#RGBlogin; layer; exp-count; stat.; buff; de-buff; gold; inventory; household; social ratio; cookie.info;
+/ESO:Journal: search_engine; math_based_description; skill-tree; sync.calendar; qr-code; notes;
+command: -c data.base
+command: add file.info
+
+-sys/data.base/stat.
+ /stat./data.base/buff/
+ /stat./dats.base/de-buff/
+add text file:
+add: description;
+add: instruction;
+add: layer: info;
+add: layer: description;
+-command: create info.txt
+-command: add data.base/stat.
+
+/sys/stat./data.base
+ /stat./buff/de-buff
+command: add description.txt
+
+
+//sys/
+command:count_inventory:add catalog.file
+command:add block.info:create catalog/info/file
+command:add file.info:add -inventory -catalog
+ //add_file_info/inventory/-catalog
+ //file.info/inventory/add catalog.info
+
+//sys/add_description_items/
+command: open catalog.file
+command: add new_item(s)
+command: add personal_inventory (description.file)
+/catalog.file/add description_item(s)
+/catalog.file:stat;file.info;
+//add file.info to stat.
+//count/item_value/-gold
+
+/sys/tree/data.base
+command: add data.base;
+#RGBlogin; layer; exp-count; stat.; buff; de-buff; gold; inventory; household; social ratio; cookie.info;
+/ESO:Journal: search_engine; math_based_description; skill-tree; sync.calendar; qr-code; notes;
+command: -c data.base
+command: add file.info
+
+-static.info
+
+command: create: file name - "statistics.info"
+command: add data.base into "file.info"
+command: use data.base
+/sys/data.base
+ /data.base
+stat.;
+layer;
+RGB-login;
+search_engine;
+exp-count;
+qr-code;
+journal;
+sync.calendar;
+cookie.file;
+skill-tree;
+buff-system;
+household;
+command :create stat.
+command: create data.base
+command: add file.info
+sys/statistics.info
+command; print - statistics.info
+
+/sys/file/data.base
+ /pring (f): stat.
+

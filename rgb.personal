@@ -1,0 +1,41 @@
+#RGB/layer/architecture
+/sys/exp./layer/engine;
+command: -c
+
+#RGBlogin
+/sys/print(f)
+/sys/exp.count: class/skill_tree/skill_ratio
+add: data.base.txt
+add: ESOJournal:note
+print(f): class/stat.
+
+#RGB-login
+//cookie.sex
+add: sex male
+add: sex female
+if: sex male
+ //create.cookie
+if: sex female 
+ //customize varieties
+
+#EDC#RGB=16.000.000
+#RGB=16.000.000
+9*100=900
+16*3=48
+900+48=948
+master.948
+948=max.level
+9+3=12
+12=skill.set
+
+
+/sys/#RGBlogin
+ /stat./personal
+  /ESO:Journal/add/note
+   /exp.counter
+-activity.rate 
+//count
+%100.0-0%
+-exp.count.layer(s)
+/all/chat:command print(f)
+/all:sync.
