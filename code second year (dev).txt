@@ -1,0 +1,133 @@
+sys/layer/S*(e)4x=100
+
+#RGB#login
+%hex%
+/sys/skill_tree/
+<print>
+-gold
+%ratio%
+/test
+
+%hex%
+#icon
+
+-map.(points):
+- a :(1)points: plan; explore; appear; location(s); object(s); step(s); way(s); road(s);
+-hex.engine:
+- b :(1)points: loot; enemy; dungeoun(s); chest(s); trap(s); item(s); weapon(s); spell(s); gold;
+%map%points%
+%hex%engine%
+(a*b)=0*1 
+*(0)map.point
+*(1)hex.engine
+function!
+mod.
+
+/sys/stat./active/bar(s)/
+stat.active.bar(s):
+- bar(s)(3)
+exp.: 1.0 %action% -1.0 %loose%
+- %Magicka%; - %HP%; - %Stamina%;
+- 100%; 0%;
+//stat.1.0%action%.buff(100)
+//stat.1.0%loose%.de-buff(0.0)
+- (active): buff;de-buff;
+- (active): +1.0 %action% -1.0 %lose%
+
+/sys/layer/menu(fxi)
+(f)-function!
+(x)-hint(.info)
+(i)-icon(s)
+/sys/layer/:
+command: add%menu%;
+command: add%note%;
+command: print%info.txt%;
+command: input%menu%(fxi);
+if: (f*x*i)
+/sys/layer/menu/note/:
+command: print%layer%menu%;
+command: print(f*x*i):%menu%;
+
+/menu
+-guild
+about:blank
+
+-clas(s)
+-guild(s)
+-stat.: rank; reward(s);
+
+/stat./ 
+%balance% <print>
+%social%structure% <edit>
+<save> %cookie.file%
+
+-ESO:Journal;
+-interface;
+-design;
+-deepness;
+<mod>
+//html:page;
+%login%
+%guide%
+sys/<print>
+command:<print_hint>
+section(s):3;
+
+/sys/login: add %request%friend%login%;
+/sys/login: add %party%;
+/stat./social_ratio (from) 0.1, (to) 7.0;
+/exp./relationship(s)_level: (from) 1, (to) 7;
+
+/sys/data.base:
+:cookie.file; txt.file;
+:browser: tab; window; history; journal; bookmarks;
+:.cc; gallery;
+-cut: ESO:Village; /sys/print/;
+command: <print>
+
+-<household> model
+-printed <journal>
+-player <model>
+
+-exp.playstyle.mod.
+-<deepness>
+
+-menu
+#ESO-Journal#note#txt.file#description
+-class
+#RGB#skill_tree
+-talent
+#exp.#skill.set#active#skill-%100
+-job
+#exp.#repeat#QR-quest#goal#reward
+
+%event% calendar:
+- sync.
+- alert
+- trade event(s);
+
+
+#skill(s) #quest(s)
+-pairing #RGB#QR
+-1 skill point: min.
+-12 skill.set: max.
+-max. 12 skill.set (personal development)#budget#inventory#outfit
+/unique/reward(s)/talent(s)/gem(s)/QR-quest/active household/event/mastery/active/100%
+-min. 1 skill point (talent) #repeat#step#method
+/manage/recieve quest(s)/playstyle/done/item(s)/craft/produce/plan/goal(s)/link/QR-code/blocked/0%
+
+-S=%active household%
+QR-quest(s):produce good(s);event(s);instrument(s);
+#RGB/clas(s):skill_tree:craft/magic/war;
+%mastery%;%specialization%;%job%;%talent%
+
+reward -s
+:completed QR-quest; job(s);
+reward -d
+:active household; trade;
+reward -r
+:event; exp.;
+count: -s; -d; -r;
+gold amount: var (i);
+var sum=0;
+
