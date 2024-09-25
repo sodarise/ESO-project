@@ -1,0 +1,140 @@
+On C complete:
+
+-architecture of Village;
+/C
+(f!)/sys/active_household/qr-code
+
+-pop up window, layer
+/C
+/sys/layer/engine:window(s):
+/sys/layer/ESO:Journal;
+/sys/layer/pop-up(s);
+/sys/layer/print(f);
+/sys/layer/pop-up/3s.-10s.;
+/sys/layer/custom.size;
+/sys/layer/close(p);
+
+-magicka, dev.tool
+/C
+/sys/ESO:project/dev.kit:
+/sys/add/bar/*magicka*;
+/sys/add/engine/*magicka*;
+/sys/add/tool/*magicka*;
+/sys/add/change;
+/sys/add/save;
+/sys/bar/engine/tool/change/save;
+
+-Ultima, graphic shader
+/C
+/sys/add/layer;
+/sys/add/layer/architecture;
+/sys/add/layer/architecture/mod.*ultima*;
+
+-balance of exp.
+/C
+/sys/add/stat.;
+/sys/add/exp-counter;
+(c): stat. = exp-counter ;
+
+-cookie
+/C
+/sys/ESO;Journal/stat./cookie
+/sys/stat./balance
+/sys/cookie/balance
+if:
+stat.(1) = cookie(1);
+command: save;
+if:
+stat.(1) = cookie(0);
+command: print(f);
+
+-correlation, system price
+/C
+/sys/gold/ratio=100%;
+if: ratio = 1
+/sys/gold/*system price*;
+/sys/gold/check;
+transaction: complete;
+ if: ratio = 0
+/sys/gold/save;
+/sys/gold/0;
+transaction: failed;
+
+/C
+/sys/active_household/architecture;
+/sys/active_household/(f!);
+/sys/active_household/QR-quest;
+/sys/active_household/gold-ratio;
+
+- stat. counter
+/C
+/sys/stat.
+command: count(1);
+command: scan(1);
+command: compare(0);
+command: balance(0);
+
+- map, map point(s)
+/C
+/sys/exp./add;
+ /sys/exp./engine;
+  /sys/exp./map-point(S);
+/sys/exp./add/engine/map-point(S);
+command; add 
+command; -exp.-engine add: map-point(S);
+
+- engine, Arch-1
+/C
+/sys/architecture/ESO-project/engine/Arch-1;
+
+- gold coin(S), and reward(S)
+/C
+/sys/main/gold;
+/sys/qr-quest/reward;
+if: qr-quest(1) - complete;
+command: add gold value;
+if; qr-quest(1) - failed;
+command: gold(0);
+
+- merchant
+/C
+/sys/gold/inventory/item(s);
+/sys/gold/exhange/ratio%;
+/sys/gold/sell/itme(S);
+/sys/gold/buy/itme(S);
+/sys/gold/merchant/storage;
+
+
+- balance on Tue, 12 hour(s)
+/C
+/sys/maintance/12(h);
+/sys/stat./balance;
+if; /sys/input(1):
+-/sys/output(1);
+command: check;
+if: /sys/input(1):
+-/sys/output(0);
+command: balance;
+
+- hint, input, adoptability
+/C
+/sys/print(f)
+/sys/print(.txt)
+/sys/print(f!)
+/sys/print(layer)
+
+- balance tool(s) : counting, stat., strategy, balance, ratio
+/C
+/sys/stat./balance;
+/sys/stat./exp-counter;
+/sys/stat./hint(!);
+/sys/stat./ratio%;
+
+- craft blank
+/C
+/sys/ESO;Journal/guild;
+/sys/ESO:journal/QR-quest;
+/sys/ESO:Journal/blank;
+/sys/ESO:Journal/note:
+/sys/ESO:Journal/craft-request;
+command: add note "craft-request";
