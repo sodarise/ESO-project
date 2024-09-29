@@ -1,0 +1,936 @@
+1. #RGB
+#RGB-login
+command: sex;
+add: sex male;
+add: sex female;
+if: sex male;
+command: create "stat.".file;
+if: sex female; 
+command: random;
+#RGB_login=16.000.000
+#RGB=16.000.000
+9*100=900
+12*9=108
+108*10=1080
+master.1080
+100=max.level
+9=skill_tree
+12=skill
+#login#RGB
+ #login#search
+  add: "login.data:.file;
+  add: *permission -log;
+   -add login.apk.data;
+   -add search.login.data;
+     #login
+     #code.list
+     #search
+      /sys/domain/x86/login
+      /sys/add/".apk".file
+
+(check)
+2. layer
+sys: count e4dac
+sys: sync. layer
+
+sys/layer/-exp.count;
+sys/layer/-step;
+sys/layer/architecture/-exp_engine;
+-exp_engine: stat; exp; ratio; architecture;
+
+command: add file:ESO Project;
+command: count xy=e4dac;
+command: sync layer;
+-sys/file/eso_project
+-sys/add/layer
+/sys/layer/engine:window(s):
+/sys/layer/ESO:Journal;
+/sys/layer/pop-up(s);
+/sys/layer/print(f);
+/sys/layer/pop-up/3s.-10s.;
+/sys/layer/custom.size;
+/sys/layer/close(p);
+sys: count xy=e4dac;
+sys: sync. layer(s);
+-sys/file/eso_project;
+-sys/add/layer(s);
+command: add file "ESO Project";
+command: count xy=e4dac;
+command: sync layer(s);
+#RGB/layer/architecture
+/sys/exp./engine/layer(s);
+command:-l
+sys/layer/-exp.count;
+sys/layer/-step.
+sys/layer/architecture/-exp_engine;
+-exp_engine: stat; exp; stat.; architecture;
+
+/layer(s);
+command:
+add: icon.apk;
+add: icon:search;message;action;
+add: icon:random;
+/test: random
+if: test 1
+add: layer(s)
+
+#RGB/layer/architecture
+/sys/exp./layer/engine;
+command: -c
+
+(check)
+3. main
+(S*(e)4x=100)
+/sys/layer/S*(e)4x=100
+/sys/ESO:Journal/mod.;
+/sys/ESO:Journal/hex/icon;
+<mod.>:
+/html:page;
+ /%login%
+  /%guide%
+/sys/print;
+command: print <page>;
+command: print <section>;
+#RGB#login
+<mod.>:
+/sys/ESO:Journal/hex;
+/sys/skill_tree;
+/sys/gold/ratio;
+command: <print>
+/sys/ESO:Journal/menu/guild/blank
+mod.
+function(!)
+(a*b)=0*1 
+*(0)map.point
+*(1)hex.engine
+/%map%points%
+  /%hex%engine%
+/map_points:
+(a):(1)points: plan; explore; appear; location(s); object(s); step(s); way(s); road(s);
+/hex.engine:
+(b):(1)points: loot; enemy; dungeoun(s); chest(s); trap(s); item(s); weapon(s); spell(s); gold;
+/sys/ESO:Journal/note
+command: add note
+/sys/ESO:Journal/menu:
+command; add -(x): use; command; print;
+command: add -(p): menu; tab; bar; msg; note;
+-%menu%
+-re-search; -info.txt; -engine; -layer;
+-%tab%:
+-menu; hint; editor; search; txt.file;
+-%bar%:
+-lines; function!; window; command; action;
+-%msg%:
+- sync.; chat; respond; check; mention;
+-%note%:
+- info; cookie; value; stat.; style;
+/sys/stat./active/bar(s)/
+stat.active.bar(s):
+- bar(s)(3)
+exp.: 1.0 %action% -1.0 %loose%
+- %Magicka%; - %HP%; - %Stamina%;
+- 100%; 0%;
+//stat.1.0%action%.buff(100)
+//stat.1.0%loose%.de-buff(0.0)
+- (active): buff;de-buff;
+- (active): +1.0 %action% -1.0 %lose%
+<mod.>
+/sys/layer/menu(fxi)
+(f)-function!
+(x)-hint(.info)
+(i)-icon(s)
+/sys/layer/:
+command: add%menu%;
+command: add%note%;
+command: print%info.txt%;
+command: input%menu%(fxi);
+if: (f*x*i)
+/sys/layer/menu/note/:
+command: print%layer%menu%;
+command: print(f*x*i):%menu%;
+<mod.>
+/sys/stat./ 
+command: "balance" <print>;
+command: "social_structure" <edit>;
+command: save "cookie.file"
+/sys/ESO:Journal/guild;
+/sys/login: add %request%friend%login%;
+/sys/login: add %party%;
+/stat./social_ratio (from) 0.1, (to) 7.0;
+/exp./relationship(s)_level: (from) 1, (to) 7;
+/sys/ESO:Journal/guild;
+-clas(s)
+-guild(s)
+-stat.: rank; reward(s);
+/sys/gold/-s;-d;-r;
+reward -s
+:completed QR-quest; job(s);
+reward -d
+:active household; trade;
+reward -r
+:event; exp.;
+count: -s; -d; -r;
+gold amount: var (i);
+var sum=0;
+-<household> model
+-printed <journal>
+-player <model>
+-S=%active household%
+%event% calendar:
+- sync.
+- alert
+- trade event(s);
+QR-quest(s):produce good(s);event(s);instrument(s);
+#RGB/clas(s):skill_tree:craft/magic/war;
+%mastery%;%specialization%;%job%;%talent%
+#skill(s) #quest(s)
+-pairing #RGB#QR
+-1 skill point: min.
+-12 skill.set: max.
+-max. 12 skill.set (personal development)#budget#inventory#outfit
+/unique/reward(s)/talent(s)/gem(s)/QR-quest/active household/event/mastery/active/100%
+-min. 1 skill point (talent) #repeat#step#method
+/manage/recieve quest(s)/playstyle/done/item(s)/craft/produce/plan/goal(s)/link/QR-code/blocked/0%
+-menu
+#ESO-Journal#note#txt.file#description
+-class
+#RGB#skill_tree
+-talent
+#exp.#skill.set#active#skill-%100
+-job
+#exp.#repeat#QR-quest#goal#reward
+
+//search_engine
+command: search; scan; volume; save; print;
+//sys/architecture/tree/layer
+//JournalESO:
+about:blank
+command: open "Sync.msg.txt";
+command: open "QR-quests.txt";
+command: open "Stat.counter.source.txt";
+info: item/gold_value/description;
+info: stat./calendar event/skill tree/household items/inventory;
+
+-sys/logs/check;
+-sys/balance/involve.permission;
+command:adopt (to) user;
+
+-sys/logs/check;
+-sys/balance/involve.permission;
+/sys/adopt/user/sys/tree/data.base;
+command: add data.base;
+#RGBlogin; layer; exp-count; stat.; buff; de-buff; gold; inventory; household; social ratio; cookie.info;
+/ESO:Journal: search_engine; math_based_description; skill-tree; sync.calendar; qr-code; notes;
+command: -c data.base;
+command: add file.info;
+
+
+-sys: main
+-sys: server://128.01.02.08/
+-sys: connect to server
+command: connect to server //128.01.02.08/;
+command: add "sys".file;
+command: add "sys".apk;
+command: mode:e4dac;
+command: create "data.base".file;
+command: add layer;
+command: sync:
+add: block:data;
+add: layer;
+add: stat.file;
+count: #RGB-login;
+count: exp.data;
+count: layer;
+add: layer;
+x=e4dac;
+y=0;
+
+use:machine
+//code
+command: count;
+-e4dac=x
+-min.=0
+/mode
+e4dac=4.32km2
+//map=e4dac
+
+1.0 mod
+ /dsa/sys/tree.file/
+  /ESO:Project/file.data
+   /l/-mod/file.config
+    /sys: xy=e4dac 
+command: count:
+     /sys/x=S/y=0
+      /sys/print
+       /-l/
+command: layer:
+        /add/cookie.file/stat.
+         /map/add model
+          /S=24
+command: count e4dac;
+command: sync layer;
+-sys/file/eso_project
+-sys/add/layer
+-sys/open.source/data.base/stat.file
+ command: add text.file;
+  add: description: -txt.file
+  add: instruction: -txt.file
+  add: layer: info -txt.file
+  add: layer: description - txt.file
+   -command: info.txt;
+   -command: add database;
+   -command: add opensource;
+   -command: add opensource/stat.file;
+
+
+1.0 mod
+ /system/tree/file/dsp
+  /elder.scrolls.online/cash
+   /l/-mod/file/config.css
+    /sys/android.apk/-count
+     /css/x=0.1/-start-application
+      /pixel.pi/-HQ:1080/
+       /-l/bit.rate/30 FPS
+        /cash/sys/-create-ds.cookie
+         /map/-movement-/360"
+          /S=24/a=1ca/
+
+/sys/add_layer(*tech)
+/sys/print/
+ /#RGBlogin
+ /ESO:Journal
+ /QR-Quest
+ /Exp.count
+ /stat.
+//ESO:Journal: add Journal.txt
+command: display /sys/
+command: print Journal.txt
+
+/sys/stat./balance;
+/sys/stat./exp-counter;
+/sys/stat./hint(!);
+/sys/stat./ratio%;
+
+/sys/print(f)
+/sys/print(.txt)
+/sys/print(f!)
+/sys/print(layer)
+
+/sys/maintance/12(h);
+/sys/stat./balance;
+if; /sys/input(1):
+-/sys/output(1);
+command: check;
+if: /sys/input(1):
+-/sys/output(0);
+command: balance;
+
+
+/sys/architecture/ESO-project/engine/Arch-1;
+
+/sys/exp./add;
+ /sys/exp./engine;
+  /sys/exp./map-point(S);
+/sys/exp./add/engine/map-point(S);
+command; add 
+command; -exp.-engine add: map-point(S);
+
+/sys/add/layer;
+/sys/add/layer/architecture;
+/sys/add/layer/architecture/mod.*ultima*;
+/sys/ESO:project/dev.kit:
+/sys/add/bar/*magicka*;
+/sys/add/engine/*magicka*;
+/sys/add/tool/*magicka*;
+/sys/add/change;
+/sys/add/save;
+/sys/bar/engine/tool/change/save;
+`(f!)/sys/active_household/qr-code`
+-sys: open exp.file 
+ #RGB_login 
+ command: browse stat.file
+ command: count exp.file
+-sys: open stat.file
+ command:
+ add exp.file
+ #stat #class #skill
+ command:
+ add: exp.data
+ #exp. #skill #stat. #journal
+-sys: add exp.file
+-stat.=3=-l
+  -add:-s -z -r
+   -add:-l -s
+    -add:-l -z
+     -add:-l -r
+      -add:-l=e4dac
+
+"max":100;
+"min":0;
+if:"max"=100;
+/100*100+100=100=100*2;
+ /3 colour:red;blue;green;
+    /stat.=full=3 bar(s):100-x+100-y+100-z=a;
+		/stat. "world":x*x+y*y-z*z=b;
+			/"current".stat.:x+y+z=S;
+                /"max."=100;
+if:"min"=0:
+	/"min"=stat.=0;
+	    /100-100=0;
+			/"min"==0;
+			    /3 bar(s):-empty;
+				   
+sys.android: connect //server:128.01.02.08/
+command: 
+scan: map;
+scan: household mod.;
+scan: stat.;
+scan: exp.;
+add: architecture mod.;
+add: "instruction.txt";
+add: layer-household mod.;
+add: layer-architecture object;
+add: layer-architecture;
+add: layer-household;
+add: layer-design;
+add: layer-object;
+add: "object.file";
+
+-ds:code:x:size:m2:status:stuff:re-fresh:counting:model;
+-ds:code:build:size:model:visual:status:etc.;
+-ds:code:variety:size:cm:new:old:stolen:value:variety;
+-ds:code:model:variety:size:change:status:owner:inventory;
+-ds:code:status:variety:stuff:size:visual:design;
+
+/sys/ESO;Journal/stat./cookie
+/sys/stat./balance
+/sys/cookie/balance
+if:
+stat.(1) = cookie(1);
+command: save;
+if:
+stat.(1) = cookie(0);
+command: print(f);
+
+(check)
+4. exp.
+/sys/add/stat.;
+/sys/add/exp-counter;
+(c): stat. = exp-counter ;
+
+(check)
+5. skill
+//sys/skill_tree
+command:open sys/skill_tree
+command:add exp.file
+command:count exp.file
+command:exp.count
+/exp.count/skill
+/exp.count/level
+/exp.count/skill_tree
+//sys/exp.count
+#RGBlogin
+/sys/print(f)
+/sys/exp.count: class/skill_tree/skill_ratio
+command: add: "data.base".txt;
+command: add: ESOJournal: note;
+print(f): class/stat.
+#RGB=16.000.000
+9*108=972
+12*9=108
+972+108=1080
+master.1080
+1080=max.level
+9+3=12
+12=skill_line;
+
+/create/table/layout/
+	/spider.web.chart/12.point
+		/personal/skill.9.chart/12.skill.point
+			/choosen/skill.9.chart/-108:108.skill.point
+
+//skill.set:9/108;3/12=max.
+	//skill.set:0/100,0/12=start.
+		//exp.: -1=Necron; +1=Phoson
+			//exp.=1 skill point
+				//skill point:100=1 skill
+					//function!
+
+(check)
+6. stat.
+/sys/stat.
+command: count(1);
+command: scan(1);
+command: compare(0);
+command: balance(0);
+
+command: create: file name - "statistics.info"
+command: add data.base into "file.info"
+command: use data.base
+/sys/data.base:
+stat.;
+layer;
+RGB-login;
+search_engine;
+exp-count;
+qr-code;
+journal;
+sync.calendar;
+cookie.file;
+skill-tree;
+buff-system;
+household;
+command :create stat.
+command: create data.base
+command: add file.info
+sys/stat./data.base/statistics.info
+command; print: (f) - statistics.info
+/stat.;
+/skill;
+skill=-r=0.00;
+if:
+-r=1.00;;
+/skill: complete
+if:
+-r=0.00;
+/skill: block;
+
+/sys/add_data/stat.;
+/sys/search;
+add: command: search;
+add: command: stat.;
+add: "info.file";
+-sys/add_tree/stat.file;
+#compilate #stat.#search #tree #image
+command: save "stat.file.txt";
+/sys/stat.file.txt
+command: create: file name - "statistics.info";
+command: add data.base in(to) "info.file";
+command: use data.base;
+/sys/data.base:
+#RGB-login;
+layer;
+stat.;
+exp.count;
+skill_tree;
+journal;
+search_engine; QR-code; sync.calendar;
+household;
+buff-system;
+command: create stat.;
+command: create data.base;
+command: add "info.file";
+sys/stat.info;
+command; print(f) -"stat.info";
+
+(check)
+7. journal
+/sys/ESO;Journal/guild;
+/sys/ESO:journal/QR-quest;
+/sys/ESO:Journal/blank;
+/sys/ESO:Journal/note:
+/sys/ESO:Journal/craft-request;
+command: add note "craft-request";
+
+/ESO:Journal
+data.base: tree_skill
+command: 
+add (to) sys;
+add/sys/tutorial;
+add/sys/guide;
+add/sys/skill_share;
+
+//JournalESO: 
+command: add log: sys/main/"QR-code".img size: 900pix.;900pix.;
+command: scan. system stat./"current" layer
+command: open: "Sys.display.txt"
+command: open: "Statstic-1.txt"
+command: display .img "personal system stat."
+/sys/main/layer: create QR-code.img size: 900pix.;900pix.;
+command: print (f) - "current" layer;
+command: open "Math based description.txt";
+command: open "Journal_edit.txt";
+command: create "QR-code.img";
+add: image 900pix.; 900pix.;
+add: image "database.info.file";
+//scan QR-code
+command: print "pesonal system stat.file"
+command: print "database.info.file"
+
+command: add log/QR-quest/description
+command: add log/add "QR-code".png 
+command: add log/journal/sync.info/layer
+
+command: count inventory;
+command: add "catalog.file";
+command: add file "info";
+command: add tree_file:"info".file;
+command: add file: "inventory_catalog".file;
+command: add file "info" (to) "inventory_catalog.file";
+
+command: open "catalog.file"
+command: add "new_item(s)";
+command: add "personal_inventory";
+command: add "catalog.file";
+command: add "description_item";
+"catalog.file":stat.;file.info;
+command: count "item_value" (in) gold
+
+command: open "data.base": tree_skill;
+command: add "journal";
+add/journal/tutorial;
+add/journal/guide;
+add/journal/skill_share;
+
+/ESO:Journal:page_edit
+command: add icon(s)
+command: add description
+command: add note.txt
+/save/page
+
+#Journal
+add: search_engine;
+add: cookie.file;
+add: QR_quest;
+add: icons.apk;
+add: chat.stat.;
+add: sell;
+add: gold;
+add: style:ESO;
+ESOJournal.mode
+ /sys/print
+command: create file: "ESOJournal.mode";
+command: create file: "stat.txt";
+command: add to file "ESOJournal.mode" - info.file;
+command: add to file "ESOJournal.mode" - layer;
+command: open "database.info.file";
+command: open "pesonal system stat.info.file";
+command: add to "info.file" : item; gold value; description;
+command: add to "info.file" : stat.; calendar event; skill tree; household items; inventory;
+command: add to "info.file" : cookie.file; layer;
+command: print file "ESOJournal.mode";
+command: create: file name - "statistic.info"
+command: add: data.base; into file : "file.info";
+command: use data.base;
+/sys/data.base
+ /data.base:
+ stat.;
+ layer;
+ RGB-login;
+ search_engine;
+ exp-count;
+ qr-code;
+ journal;
+ sync.calendar;
+ cookie.file;
+ skill-tree;
+ buff-system;
+ household;
+command: create stat.;
+command: create data.base;
+command: add file.info;
+command: open file: "statistic.info"; "file.info"; "pesonal system stat.info.file"; "database.info.file"; "stat.txt"; "ESOJournal.mode";
+/sys/#RGBlogin
+ /stat./personal
+  /ESO:Journal/add/note
+   /exp.counter
+-activity.rate 
+command: count;
+%100.0-0%
+-exp.count.layer(s)
+/all/chat:command print(f)
+/all:sync.
+
+(check)
+8. database
+
+/sys/tree_file/data.base
+command: add data.base:
+#RGBlogin; layer; main; skill; stat.; journal; data.base; exp-count; household; inventory; social ratio; buff; de-buff; gold;
+command: add
+/ESO:Journal: search_engine; math_based_description; skill-tree; sync.calendar; qr-code; notes;
+command: -c data.base
+command: add file.info
+command:
+-stat.; (buff;de-buff);
+-use "stat.info.txt";
+-use search_engine;
+-scan/search;
+-print(f) "stat.file.txt";
+-sys/data.base/stat.;
+ /stat./data.base/buff;
+ /stat./data.base/de-buff;
+command:
+add: text.file:
+add: description;
+add: instruction;
+add: layer: info;
+add: layer: description;
+command: create "info.file.txt";
+command: add data.base/stat.;
+/sys/stat./data.base/buff/de-buff;
+command: add description;
+sys/statistic.info
+command: print file:"statistic.info"
+add/stat./data.base;
+add/tree_skill: 12;
+command: count tree_skill;
+command: print "tree_skill";
+command: add file "QR-code";
+command: sync.;
+ /log/QR-quest/description
+ /log/add image: "QR-code.png" 
+ /log/journal/sync.info/layer
+command: add file "QR-quest"
+command: add image: "QR-code.img"
+ if: "check"
+ command: sync. ESO:Journal;
+ command: add (to) ESO:Journal: file "QR-quest"
+/sys/
+command: add search
+command: add stat.
+ -sys/add_tree/stat.file
+command:#stat. #search #tree #image
+9. QR-quest
+#QR-code#Quest
+/sys/scan
+	/create:"quest.line.txt"
+		/description/"quest.txt"
+			/main.event
+				/place/add:marker
+					/enemy/visible
+						/stuff/reward
+							/achievement/skill.points
+                                /step/reward
+								    /sys/"full.up.txt"
+									    /sys/create.id
+                                            /summ/reward
+                                                /gold/ratio
+										            /sys/create:QR-code
+
+command:
+ add: QR-code;
+ add: page quest_line;
+ save: page QR-code: "quest_line/household";
+
+
+/sys/ESO:Journal/quest-line
+commnad: sync.
+command: add page: journal;quest-line;
+command: add: QR-code.img;
+
+command:
+ add: QR-code;
+ add: page quest_line;
+ save: page QR-code: quest_line/household;
+
+command: create "quest-line.file"
+command: sync.
+ /log/QR-quest.image
+ /log/quest-line/personal
+ /log/journal/sync.info
+command: add-on QR-quest
+command: add-on quest-line
+ if: "check"
+command:
+ add: sync.journal
+ add: journal:quest-line
+
+(check)
+10. household
+
+//sys/ESO:Village/architecture/household/log
+ /sys/log:add architecture
+ /sys/log:add household
+command: add architecture_model
+
+/sys/active_household/architecture;
+/sys/active_household/(f!);
+/sys/active_household/QR-quest;
+/sys/active_household/gold-ratio;
+
+(e)- household model
+(x-y) = 0; (x - possitive ratio, and y - negative ratio)
+a - amount of gold
+
+e=(x-y)*a
+
+
+//sys/ESO:Village/architecture/household/log
+ /sys/log:add architecture mod.
+ /sys/log:add household
+command: add architecture_mod.
+
+/sys/search/household_item(s);
+ /sys/add/log/ESO:Journal
+
+(check)
+11. inventory
+
+
+//sys/add_description_items/
+command: open catalog.file
+command: add new_item(s)
+command: add personal_inventory (description.file)
+/catalog.file/add description_item(s)
+/catalog.file:stat;file.info;
+//add file.info to stat.
+//count/item_value/-gold
+
+//sys/
+command:count_inventory:add catalog.file
+command:add block.info:create catalog/info/file
+command:add file.info:add -inventory -catalog
+//add_file.info/inventory/-catalog
+//file.info/inventory/add catalog.info
+//sys/
+command:
+check: inventory;
+add: "catalog.file";
+create: "catalog.info.file"
+add: "info.file";
+add: -inventory; -catalog;
+ /command: add "file.info": inventory; catalog;
+ //command: add "catalog.info";
+
+/sys
+ /add_description_items/
+command: open "catalog.file";
+command: add note: "new_item(s)";
+command: add "personal_inventory_description.file";
+/"catalog.file"/add description_item(s);
+/"catalog.file": stat; file.info;
+//add "info.file" to stat.;
+//count/item "value": gold;
+
+(check)
+12. ratio
+13. buff de-buff
+command: status (buff;de-buff)
+-use stat.info
+-use search_engine
+-scan research
+-print description_stat.
+
+//#RGB_login/stat./3
+//stat./buff/de-buff
+//1./exp.1
+//2./exp.-0
+//3./exp.-1
+//test
+-sys/stat./data.base/
+ /stat./data.base/buff/
+ /stat./dats.base/de-buff/
+add text file:
+add: description;
+add: layer: info;
+add: layer: description;
+-command: create info.txt
+-command: add /stat./data.base
+/sys/stat./data.base
+ /stat.:buff/de-buff
+command: add description.txt
+
+//#RGB_login/stat./3
+//stat./buff/de-buff
+//1/exp.-1
+//1/exp.-0
+//test
+-sys/data.base/"stat.file"
+ /data.base/buff/"stat.file"
+ /data.base/de-buff/"stat.file"
+  add text file
+  add: description: -txt.file
+  add: instruction: -txt.file
+  add: layer: info -txt.file
+  add: layer: description - txt.file
+   -command: create "info.txt"
+   -command: add data.base/"stat.file"
+-sys 
+ #RGB_login 
+ command: open "stat.file"
+ command: open "exp.file"
+#RGB_login #layer #log
+#level #class #stat.
+#scan #buff #de-buff 
+ commnad: add data. (to) "exp.file"; "stat.file'
+ command: add buff.info
+ command: create "buff.txt"
+/sys/stat./data.base
+ /stat./buff/de-buff
+command: add description.txt
+
+(check)
+14. gold
+/coin(s)
+command: reward -r
+command: count "month_reward" -c
+  -r
+  -c
+/quest(s)
+command: add file.txt
+command: print "quest_description"
+command: mark -q
+"quest_description".txt -q -c -r
+/item(s)
+command: add file.txt
+command: print "item_description".txt
+command: item -s
+"item_description".txt -s -c -r
+/note(s)
+command: add file.txt
+command: print "note_diary"
+command: input -f
+"note_diary".txt -f -c -r
+
+//sys/add_description_items/
+command: open catalog.file
+command: add new_item(s)
+command: add personal_inventory (description.file)
+/catalog.file/add description_item(s)
+/catalog.file:stat.;file.info;
+//add file.info to stat..
+//count/item_value/ - gold
+/sys/gold/ratio=100%;
+if: ratio = 1
+/sys/gold/*system price*;
+/sys/gold/check;
+transaction: complete;
+ if: ratio = 0
+/sys/gold/save;
+/sys/gold/0;
+transaction: failed;
+
+/sys/main/gold;
+/sys/qr-quest/reward;
+if: qr-quest(1) - complete;
+command: add gold value;
+if; qr-quest(1) - failed;
+command: gold(0);
+
+/sys/gold/inventory/item(s);
+/sys/gold/exhange/ratio%;
+/sys/gold/sell/itme(S);
+/sys/gold/buy/itme(S);
+/sys/gold/merchant/storage;
+
+(check)
+
+/e4dac=x
+/e4dac=size.map
+/map.system.e4dac
+#RGB-login
+//test
+
+
+//test:
+ :e4dac=2×2^15=60;32,768
+ :/sys/test/complete/
+ :Y/N
+
+/e4dac=2^2*15
+//sys:complete
+//sys:start
+//support
+
+(test)
